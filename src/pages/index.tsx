@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { graphql, Link } from 'gatsby';
-import Header from '../components/header';
+import * as React from "react";
+import { graphql, Link } from "gatsby";
+import Header from "../components/header";
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
@@ -23,7 +23,7 @@ export default class extends React.Component<IndexPageProps, {}> {
       <div>
         <Header headerText="Hi people" />
         <p>
-          Welcome to your new{' '}
+          Welcome to your new{" "}
           <strong>{this.props.data.site.siteMetadata.title}</strong> site.
         </p>
         <p>Now go build something great.</p>

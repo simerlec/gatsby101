@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { Link } from 'gatsby';
-import Header from '../components/header';
+import * as React from "react";
+import { Link } from "gatsby";
+import Header from "../components/header";
 
 const SecondPage = () => (
   <div>
