@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from 'react';
 
 interface HeaderProps {
-  headerText: string
+  headerText: string;
 }
 
-export default (props: HeaderProps) => <h1>{props.headerText}</h1>
+export default (props: HeaderProps) => <h1>{props.headerText}</h1>;
