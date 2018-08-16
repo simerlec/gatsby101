@@ -18,11 +18,12 @@
     "typography-theme-bootstrap": "^0.16.7"
   },
   "devDependencies": {
+    "husky": "^1.0.0-rc.13",
+    "prettier": "^1.14.2",
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
     "tslint-react": "^3.6.0",
-    "typescript": "^2.9.1",
-    "prettier": "^1.14.2"
+    "typescript": "^2.9.1"
   },
   "license": "MIT",
   "main": "n/a",
