@@ -31,7 +31,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "serve public/",
-    "format": "prettier --parser typescript --trailing-comma all --single-quote false --write \"src/**/*.ts*\"",
+    "format": "prettier --config .prettierrc --write \"src/**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "husky": {
